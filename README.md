@@ -40,30 +40,33 @@ images/notes/: Images containing notes.
 images/not_notes/: Images not containing notes.
 
 Run the training script:
-
-python train_network.py
+```
+run: python train_network.py
+```
 This will train the model and save it as mymodel.keras.
 
 Testing the Model
 Add your testing images to the test_images/ folder.
 
 Test the model on individual images using:
-
+```
 python test_network.py --image test_images/image_name.jpg
+```
 The script will display the classification result (e.g., "notes" or "not_notes") and the confidence score.
 
 Deleting "Notes" Images
 To automatically delete "notes" images from a folder, modify the path in delete_images.py to point to your desired folder.
 
 Run the script:
-
+```
 python delete_images.py
+```
 The script will classify images in the folder and move "notes" images to the backup_images/ folder.
 
 ## Built With
-Keras: Deep learning framework used for building and training the model.
+Keras(https://keras.io/): Deep learning framework used for building and training the model.
 
-LeNet: Convolutional Neural Network architecture used for image classification.
+LeNet(http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf/): Convolutional Neural Network architecture used for image classification.
 
 OpenCV: For image processing and manipulation.
 
