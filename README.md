@@ -30,46 +30,49 @@ To run this project, you need the following Python libraries:
 
 
 # Installing
-I have already trained the model so you can direcly use it (mymodel.keras), so you can directly use it without training. However, if you want to train your own model, follow the instructions below.
+I have already trained the model so you can direcly use it (mymodel.keras), so you can directly use it without training.
+```
+mymodel.keras
+```
+However, if you want to train your own model, follow the instructions below.
 
 Training the Model
-Add your training images to the following folders:
+You can also train you own network by running "train_network.py" to train you own network you have to add images to images/notes and images/not_notes (Actually I trained the model with my personal images so I did not upload it)
 
 images/notes/: Images containing notes.
 
 images/not_notes/: Images not containing notes.
 
-Run the training script:
 ```
 run: python train_network.py
 ```
-This will train the model and save it as mymodel.keras.
 
 Testing the Model
 Add your testing images to the test_images/ folder.
 
 Test the model on individual images using:
 ```
-python test_network.py --image test_images/image_name.jpg
+run: python test_network.py --image test_images/image_name.jpg
 ```
-The script will display the classification result (e.g., "notes" or "not_notes") and the confidence score.
 
 Deleting "Notes" Images
 To automatically delete "notes" images from a folder, modify the path in delete_images.py to point to your desired folder.
 
-Run the script:
 ```
-python delete_images.py
+run: python delete_images.py
 ```
-The script will classify images in the folder and move "notes" images to the backup_images/ folder.
 
 ## Built With
 Keras(https://keras.io/): Deep learning framework used for building and training the model.
 
 LeNet(http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf/): Convolutional Neural Network architecture used for image classification.
 
-OpenCV: For image processing and manipulation.
+OpenCV(https://docs.opencv.org/4.x/index.html): For image processing and manipulation.
 
-Matplotlib: For visualizing training and testing results.
+Matplotlib(https://matplotlib.org/stable/index.html): For visualizing training and testing results.
+
+## Examples
+<img src="https://github.com/VVenkatesh215/NotesDetector/blob/master/testresult1.png">
+<img src="https://github.com/VVenkatesh215/NotesDetector/blob/master/testresult2.png">
 
 
