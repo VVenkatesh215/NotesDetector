@@ -1,5 +1,5 @@
 # NotesDetector
-During exams, students often share notes via social media, but manually deleting these images after the exam is time-consuming. To solve this problem, I developed a system that automatically detects handwritten notes (captured using a mobile camera) and deletes them efficiently.
+During semester exams, we often share notes by capturing images, but once the semester is over, manually deleting all these images becomes a time-consuming task. I faced this issue myself, so I developed a system that automatically detects handwritten notes (captured using mobile camera), and deletes efficiently saving time and effort.
 
 ---
 
