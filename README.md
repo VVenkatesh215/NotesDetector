@@ -1,5 +1,8 @@
 # NotesDetector
-During semester exams, we often share notes by capturing images, but once the semester is over, manually deleting all these images becomes a time-consuming task. I faced this issue myself, so I developed a system that automatically detects handwritten notes (captured using mobile camera), and deletes efficiently saving time and effort.
+During semester exams, students often share handwritten notes by capturing images. However, once the semester is over, manually deleting all these images becomes a time consuming task. I personally faced this issue and decided to develop an automated solution to address it.
+
+NotesDetector is a system designed to automatically detect and delete images of handwritten notes captured using a mobile camera. By leveraging a Convolutional Neural Network (CNN) based on the LeNet architecture, the system classifies images as either "notes" or "not_notes." This eliminates the need for manual deletion, saving time and effort while keeping your digital files organized.
+
 
 ---
 
