@@ -39,10 +39,6 @@ However, if you want to train your own model, follow the instructions below.
 Training the Model
 You can also train you own network by running "train_network.py" to train you own network you have to add images to images/notes and images/not_notes (Actually I trained the model with my personal images so I did not upload it)
 
-images/notes/: Images containing notes.
-
-images/not_notes/: Images not containing notes.
-
 ```
 run: python train_network.py
 ```
