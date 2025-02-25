@@ -29,8 +29,8 @@ To run this project, you need the following Python libraries:
 - **imutils**: For image utilities.
 
 
-Installing
-The project comes with a pre-trained model (mymodel.keras), so you can directly use it without training. However, if you want to train your own model, follow the instructions below.
+# Installing
+I have already trained the model so you can direcly use it (mymodel.keras), so you can directly use it without training. However, if you want to train your own model, follow the instructions below.
 
 Training the Model
 Add your training images to the following folders:
@@ -41,8 +41,6 @@ images/not_notes/: Images not containing notes.
 
 Run the training script:
 
-bash
-Copy
 python train_network.py
 This will train the model and save it as mymodel.keras.
 
@@ -51,8 +49,6 @@ Add your testing images to the test_images/ folder.
 
 Test the model on individual images using:
 
-bash
-Copy
 python test_network.py --image test_images/image_name.jpg
 The script will display the classification result (e.g., "notes" or "not_notes") and the confidence score.
 
@@ -61,12 +57,10 @@ To automatically delete "notes" images from a folder, modify the path in delete_
 
 Run the script:
 
-bash
-Copy
 python delete_images.py
 The script will classify images in the folder and move "notes" images to the backup_images/ folder.
 
-Built With
+## Built With
 Keras: Deep learning framework used for building and training the model.
 
 LeNet: Convolutional Neural Network architecture used for image classification.
