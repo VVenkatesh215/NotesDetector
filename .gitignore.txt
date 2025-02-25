@@ -1,0 +1,15 @@
+# Python template
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+dist/
+build/
+
+# Custom entries
+logs/
+mymodel.keras
+plot.png
