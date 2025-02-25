@@ -18,7 +18,7 @@ The system contains:
 
 ---
 
-## Prerequisites
+### Prerequisites
 To run this project, you need the following Python libraries:
 - **Keras**: Deep learning framework.
 - **TensorFlow**: Backend for Keras.
@@ -29,7 +29,7 @@ To run this project, you need the following Python libraries:
 - **imutils**: For image utilities.
 
 
-# Installing
+### Installing
 I have already trained the model so you can direcly use it (mymodel.keras), so you can directly use it without training.
 ```
 mymodel.keras
@@ -63,13 +63,13 @@ run: python delete_images.py
 ```
 
 ## Built With
-Keras(https://keras.io/): Deep learning framework used for building and training the model.
+[Keras](https://keras.io/): Deep learning framework used for building and training the model.
 
-LeNet(http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf/): Convolutional Neural Network architecture used for image classification.
+[LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf/): Convolutional Neural Network architecture used for image classification.
 
-OpenCV(https://docs.opencv.org/4.x/index.html): For image processing and manipulation.
+[OpenCV](https://docs.opencv.org/4.x/index.html): For image processing and manipulation.
 
-Matplotlib(https://matplotlib.org/stable/index.html): For visualizing training and testing results.
+[Matplotlib](https://matplotlib.org/stable/index.html): For visualizing training and testing results.
 
 ## Examples
 <img src="https://github.com/VVenkatesh215/NotesDetector/blob/master/testresult1.png">
